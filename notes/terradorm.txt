@@ -31,3 +31,9 @@ other wise we will get an error like
  │
  "
  here IAM role provides the permissions from aws service...
+
+
+
+ ********************************************************************************************************************
+
+ to run the automation code through gocd server

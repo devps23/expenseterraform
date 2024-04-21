@@ -24,7 +24,7 @@ pipelines:
             timeout: 0
             tasks:
             - exec: { command: terraform,  arguments: [ "init" ], run_if: passed }
-            - exec: { command: terraform,  arguments: [ "apply","-var-file=load_variable/load_Value.tfvars","-auto-approve" ], run_if: passed }
+            - exec: { command: terraform,  arguments: [ "apply","-var-file=load_variables/load_Value.tfvars","-auto-approve" ], run_if: passed }
 
 
 
