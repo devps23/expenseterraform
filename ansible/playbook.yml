@@ -1,0 +1,5 @@
+- name: prometheus
+  hosts: all
+  become: true
+  roles:
+    - "{{tool_name}}"

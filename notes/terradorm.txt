@@ -34,6 +34,23 @@ other wise we will get an error like
 
 
 
+
  ********************************************************************************************************************
 
- to run the automation code through gocd server
+ to run the automation code through gocd server.
+
+ * we can't able to destroy the ec2 instance because once create an instance it will store some other locations.
+  we dicn't know which location instance in generated.
+  come back to aws service and destroy the ec2 instance manually...
+  so create s3 buket.
+
+  ******************************************************************************************************************
+  Prometheus: Monitoring  and visualization the environment
+  convert any service to Prometheus we need node_exporter.
+  here node_exporter is a translater.
+  dowiload prometheus manually
+  through automation to download prometheus use ansible
+
+  * first we create ansible-playbook
+  *
+
