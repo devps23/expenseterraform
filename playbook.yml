@@ -1,5 +1,0 @@
-- name: prometheus playbook
-  hosts: all
-  become: true
-  roles:
-    - "{{ tool_name }}"
