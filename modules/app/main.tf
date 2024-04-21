@@ -1,9 +1,9 @@
 resource "aws_instance" "web" {
-  ami           = "ami-090252cbe067a9e58"
-  instance_type = "t3.small"
+  ami           = var.ami
+  instance_type = var.instanceType
   vpc_security_group_ids = [data.aws_security_group.security.id]
   tags = {
-    Name = "demo"
+    Name = var.tag_name
   }
 }
 data "aws_security_group" "security"{
