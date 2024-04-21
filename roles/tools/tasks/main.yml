@@ -5,6 +5,7 @@
       remote_src: yes
 
 - name: copy prometheus service file
+  ansible.builtin.template:
 
 
 #  https://github.com/prometheus/prometheus/releases/download/v2.45.4/prometheus-2.45.4.linux-amd64.tar.gz
