@@ -1,7 +1,4 @@
 terraform {
-  backend "s3" {
-    bucket = "mybucket"
-    key    = "test/files"
-    region = "us-east-1"
-  }
+  backend "s3" {}
 }
+resource "null_resource" "resource" {}
